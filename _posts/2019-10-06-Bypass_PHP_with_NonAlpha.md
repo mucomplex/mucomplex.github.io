@@ -68,4 +68,16 @@ Let test the code: <br>
 ![Image 11](/images/PHP_Non-Alpha/Selection_010.png)<br><br>
 ![Image 12](/images/PHP_Non-Alpha/Selection_011.png)<br><br>
 
-if you look at echo $\_\_($\_);  it actually same as echo shell\_exec('whoami'). <br>
+echo $\_\_($\_);  it actually same as echo shell\_exec('whoami'). <br>
+
+Hands-on time!!! , below code is vulnerable to php-nonalpha encoder,which limit us only to write number and some symbols. <br>
+![Image 13](/images/PHP_Non-Alpha/Selection_012.png)<br><br>
+With same payload we craft before.Try to exploit eval function by define $\_ = 'whoami'; $\_\_ = shell\_exec() .<br>
+eval('print '.($\_ = define\_whoami).($\_\_= define\_shell\_exec).($\_\_($\_)).";"); <br>
+I bracket for each variables define and execute it by calling ($\_\_($\_)) <br>
+![Image 14](/images/PHP_Non-Alpha/Selection_013.png)<br><br>
+![Image 14](/images/PHP_Non-Alpha/Selection_014.png)<br><br>
+
+try with other payload 'cat /etc/password' and arrange our payload back. <br>
+![Image 14](/images/PHP_Non-Alpha/Selection_015.png)<br><br>
+![Image 14](/images/PHP_Non-Alpha/Selection_016.png)<br><br>
