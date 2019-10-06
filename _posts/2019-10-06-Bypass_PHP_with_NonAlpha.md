@@ -5,7 +5,7 @@ author: mucomplex
 description: This really useful when you encounter IDS/IPS prevention which need to bypass php code execution
 ---
 
-In this tutorial I will cover PHP non-alpha encoder. I will show some basic concept first before we going deeper which may couse brain damage. muehehe <br>
+In this tutorial I will cover PHP non-alpha encoder. I will show some basic concept first before we going deeper which may cause brain damage. muehehe <br>
 
 A 	| B 	| 	XOR A&B
 --------|-------|-------------------
