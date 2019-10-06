@@ -1,6 +1,6 @@
- ---
+---
 title: Bypass with PHP non-alpha encoder 
- layout: post
+layout: post
 author: mucomplex
 description: This really useful when you encounter IDS/IPS prevention which need to bypass php code execution
 ---
