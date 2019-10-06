@@ -22,7 +22,6 @@ title: Mucomplex Diary
 email: mucomplex@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
         A cyber security enthusiasm. Learning is my passion. Currently working as Security Consultant at Firmus sdn bhd. I had experience in the penetration testing and reverse engineering skills. I am doing penetration testing for the web penetration testing and vulnerability assessment on servers and other infrastructure.
-        [Ahmad Fitri - OSCP(6/5/2018),OSCE(21/3/2019),OSWE(6/7/2019)](https://www.youracclaim.com/users/ahmad-fitri/badges)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
