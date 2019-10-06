@@ -51,3 +51,12 @@ What is python argumentparser? and how to declare it?<br>
 Then I initialize php\_encoder class with 3 arguments which is payload,method and badchar. I also create symbolic\_list by using string.digits + string.printable[62:94] . <br>
 Finally I create list of 'xor' and 'or' non-alpha to be store. <br>
 ![Image 8](/images/PHP_Non-Alpha/Selection_007.png)<br><br>
+Below is function replacing badchar with ''. <br>
+![Image 9](/images/PHP_Non-Alpha/Selection_008.png)<br><br>
+php_encoder is check: <br>
+1. check if successfully encode all payload character.
+2. iteration of xor non-apha and non-alpha.
+3. if payload contain non-alpha.It directly pickup the non-alpha character.
+4. else it will 'xor' and check if match, it append to the list.
+![Image 10](/images/PHP_Non-Alpha/Selection_009.png)<br><br>
+
