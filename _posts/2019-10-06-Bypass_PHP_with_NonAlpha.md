@@ -63,3 +63,9 @@ php\_encoder is check: <br>
 4. else it will 'xor' and check if match, it append to the list.
 ![Image 10](/images/PHP_Non-Alpha/Selection_009.png)<br><br>
 
+if you look at the code, there is another logic that I use. which is 'or' encoder. you may figure out this your self. <br>
+Let test the code: <br>
+![Image 11](/images/PHP_Non-Alpha/Selection_010.png)<br><br>
+![Image 12](/images/PHP_Non-Alpha/Selection_011.png)<br><br>
+
+if you look at echo $\_\_($\_);  it actually same as echo shell\_exec('whoami'). <br>
