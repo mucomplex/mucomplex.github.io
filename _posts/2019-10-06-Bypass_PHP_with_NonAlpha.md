@@ -46,14 +46,17 @@ So let construct our string. but lazy?.. okay I made some tool for you, and stud
 
 What is python argumentparser? and how to declare it?<br>
 **The argparse module makes it easy to write user-friendly command-line interfaces. The program defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv. The argparse module also automatically generates help and usage messages and issues errors when users give the program invalid arguments.** <br>
+
 ![Image 7](/images/PHP_Non-Alpha/Selection_006.png)<br><br>
 
 Then I initialize php\_encoder class with 3 arguments which is payload,method and badchar. I also create symbolic\_list by using string.digits + string.printable[62:94] . <br>
 Finally I create list of 'xor' and 'or' non-alpha to be store. <br>
+
 ![Image 8](/images/PHP_Non-Alpha/Selection_007.png)<br><br>
+
 Below is function replacing badchar with ''. <br>
 ![Image 9](/images/PHP_Non-Alpha/Selection_008.png)<br><br>
-php_encoder is check: <br>
+php\_encoder is check: <br>
 1. check if successfully encode all payload character.
 2. iteration of xor non-apha and non-alpha.
 3. if payload contain non-alpha.It directly pickup the non-alpha character.
