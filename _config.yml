@@ -21,7 +21,7 @@
 title: Mucomplex Diary
 email: mucomplex@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-        What hackers do is figure out technology and experiment with it in ways many people never imagined. They also have a strong desire to share this information with others and to explain it to people whose only qualification may be the desire to learn. - Emmanuel Goldstein
+        A cyber security enthusiasm. Learning is my passion. Currently working as Security Consultant at Firmus sdn bhd. I had experience in the penetration testing and reverse engineering skills. I am doing penetration testing for the web penetration testing and vulnerability assessment on servers and other infrastructure.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
