@@ -89,3 +89,16 @@ try with another payload 'cat /etc/password' and arrange our payload back. <br>
 ![Image 14](/images/PHP_Non-Alpha/Selection_015.png)<br><br>
 ![Image 14](/images/PHP_Non-Alpha/Selection_016.png)<br><br>
 
+Congratulation!!.. You have mastered the first technique."mucomplex, do you have another alternative?." . Answer is Yes!. <br>
+
+This technique is defined as the increment technique. <br>
+First, we try to create a string from PHP stdout. Look the example below. There many ways to define it.<br>
+![Image 15](/images/PHP_Non-Alpha/Selection_017.png)<br><br>
+The "Array" string will store on "$\_" variable. Next, we try to create "0" by setting the undefined variable ($\_\_). Then we will get "A" when 
+"$\_\_\_ = $\_[$\_\_]" which mean we have access "A" in "Array" string.  If we increment "$\_\_\_++"   we can obtain alphabet A-Z. Then we try to increase $\_\_++ so it will have value 1. then feed again to "$\_[$\_\_]" we will obtain "r". if we increment the "$\_\_" for 2 times more, we can obtain small capital "a". Now you have a basic idea of how we can control A-Z,a-z,0-9.<br>
+![Image 16](/images/PHP_Non-Alpha/Selection_018.png)<br><br>
+![Image 17](/images/PHP_Non-Alpha/Selection_019.png)<br><br>
+
+That's all from me. Happy Hacking. <br>
+
+
