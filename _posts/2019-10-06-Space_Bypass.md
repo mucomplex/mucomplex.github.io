@@ -2,7 +2,7 @@
 title: Space Bypass 
 layout: post
 author: mucomplex
-description: This really useful when you encounter IDS/IPS prevention which need to bypass command execution
+description: This useful when you encounter IDS/IPS prevention which need to bypass command execution
 ---
 
 Hi guys, today I will show some trick to bypass _Space_ if you allowed to execute command injection.This trick really useful when you want to invade the target machine<br>
