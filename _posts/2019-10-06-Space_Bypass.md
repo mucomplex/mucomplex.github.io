@@ -13,7 +13,7 @@ The output will result as image 1 <br><br>
 Define _${IFS}_ which mean "internal field separator" <br><br>
 ![Image 2](/images/Bypass_trick/Space_Bypass/Selection_002.png)<br><br>
 #### mysql space bypass <br>
-with "/**/"
+with "/**/" <br>
 ![Image 3](/images/Bypass_trick/Space_Bypass/Selection_003.png)<br><br>
 with "+" <br>
 ![Image 4](/images/Bypass_trick/Space_Bypass/Selection_004.png)<br><br>
