@@ -67,6 +67,8 @@ Exploit Development: <br>
 Web Exploitation: <br>
 [https://www.ripstech.com/](https://www.ripstech.com/) <br>
 
+For now I will stop it here, example link,pdf,etc that I share is some of it,but it will lead you to other knowledge that you need to know. Wait for part 2, stay tuned. :D <br>
+
 
 
 
