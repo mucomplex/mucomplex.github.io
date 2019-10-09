@@ -56,7 +56,7 @@ Once complete, This place where spend most of your time and do some research. <b
 
 you are ready for OSCP and other hands-on certification, yey!. many people write about their experience of taking this exam. You need to get some feel, try to imagine it. :D <br>
 
-Once you pass, I guarantee that you have good skill enough to co-op with industry requirement. This might be the ending of our journey? Not yet!. It just beginning after all the thing that have we going through. Now you need to choose which area you want to be good at. Some options that I can suggest ,b ut three of the lists below is my expertise. <br>
+Once you pass, I guarantee that you have good skill enough to co-op with industry requirement. This might be the ending of our journey? Not yet!. It just beginning after all the thing that have we going through. Now you need to choose which area you want to be good at. Some options that I can suggest but three of the lists below is my expertise. <br>
 
 Malware Analysis: <br>
 ![Learning Malware Analysis](https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/978178839250120-20copy.png) <br>
