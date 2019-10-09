@@ -10,8 +10,8 @@ Hi guys, today I want to share with you my way on how to become an offensive sec
 The first things that newcomers will ask "do I need OSCP, OSCE, OSWE, OSEE, GPEN, CISSP to be hired and become an expert in this industry?".Calm down, are you sure want to get into this industry?. If yes, let me show you initial foothold, there is no right or wrong. I assume you have some basic knowledge about computer.<br>
 
 First thing that you need is to develop creative thinking by learning simple coding. such as HTML, most of it is all about pattern. for example: <br>
-&lthtml&gt<br>
-&lt/html&gt<br>
+&lt;html&gt;<br>
+&lt;/html&gt;<br>
 There  is a different way to define HTML code. this might be your first code writing. :D <br>
 
 [https://www.w3schools.com/html/](https://www.w3schools.com/html/) <br>
@@ -38,7 +38,7 @@ Next, I assume you have a better understanding of programming language, database
 
 You are ready for it, where you need to explore the Linux operating system. I suggest some good book and challenge here, take a look. I bet this book have better explaination than my own. :D <br>
 
-[https://cmdchallenge.com/](https://www.reddit.com) <br>
+[https://cmdchallenge.com/](https://www.reddit.com) <br><br>
 ![Linux Basics for Hacker](https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/5932/9781593278557.jpg) <br>
 
 This might be your first introduction to the proper hacking methodology, why I suggest this book?, It amazing and not overwhelming to understand. You will be exposed to service, protocol, web server, etc. You also will be taught to write a good report here. <br>
