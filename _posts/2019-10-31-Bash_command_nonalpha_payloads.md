@@ -10,7 +10,7 @@ This might your first introduce to bash non-alpha payload,I can bet no better ex
 I wonder not much people research about this, but I have done my own research to upgrade your hacking skill :D <br>
 
 Let me introduce you list of special bash parameter used in Unix.
-![Image 1](/images/Bypass_trick/bash_nonalpha/Selection_001.png)<br><br>
+#![Image 1](/images/Bypass_trick/bash_nonalpha/Selection_001.png)<br><br>
 
 Now,you need to know how to initialize function in single line cmd shell: <br>
 function\_name () { commands; } <br>
@@ -26,7 +26,7 @@ Now let's going deep.<br>
 \_\_\_\_    $#;		-- This we trigger the function and give one parameter to it. <br>
 echo $\_\_ 		-- you will get one(1) based on function assignment. <br>
 
-![Image 1](/images/Bypass_trick/bash_nonalpha/Selection_001.png)<br><br>
+#![Image 1](/images/Bypass_trick/bash_nonalpha/Selection_001.png)<br><br>
 
 
 
