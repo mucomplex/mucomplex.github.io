@@ -13,18 +13,18 @@ Let me introduce you list of special bash parameter used in Unix.
 ![Image 1](/images/Bypass_trick/bash_nonalpha/Selection_001.png)<br><br>
 
 Now,you need to know how to initialize function in single line cmd shell: <br>
-function_name () { commands; } <br>
+function\_name () { commands; } <br>
 
-As you know declaration of function variable can be start by upper and lower case alphabet, other than that is <b>underscore<b> <br>
+As you know declaration of function variable can be start by upper and lower case alphabet, other than that is <b>underscore</b> <br>
 eg: __="this is my variable"<br>
 input : echo $__ <br>
 result: this is my variable <br>
 
 Now let's going deep.<br>
 
-____()    {    __=$#;}; -- This part we declare function which obtain number of argument return ($#) and assign as __ <br>
-____    $#;		-- This we trigger the function and give one parameter to it. <br>
-echo $__ 		-- you will get one(1) based on function assignment. <br>
+\_\_\_\_()    {    \_\_=$#;}; -- This part we declare function which obtain number of argument return ($#) and assign as \_\_ <br>
+\_\_\_\_    $#;		-- This we trigger the function and give one parameter to it. <br>
+echo $\_\_ 		-- you will get one(1) based on function assignment. <br>
 
 ![Image 1](/images/Bypass_trick/bash_nonalpha/Selection_001.png)<br><br>
 
