@@ -1,5 +1,5 @@
 ---
-title: Bash Non-Alpha Payload
+title: Bash NonAlpha Payload
 layout: post
 author: mucomplex
 description:This useful when you encounter IDS/IPS prevention which need to bypass command execution.
