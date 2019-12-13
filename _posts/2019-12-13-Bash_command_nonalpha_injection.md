@@ -57,14 +57,14 @@ Now hands-on time!,save it as challenge.py and feed 1st argument with payload. T
 
 
 Need something like this advanced? sure can. <b> LiveOverflow!! </b><br>
-[https://www.youtube.com/watch?v=6D1LnMj0Yt0&t=198s]https://www.youtube.com/watch?v=6D1LnMj0Yt0&t=198s <br>
+[https://www.youtube.com/watch?v=6D1LnMj0Yt0&t=198s](https://www.youtube.com/watch?v=6D1LnMj0Yt0&t=198s)<br>
 
 Reference link: <br>
-[https://javarevisited.blogspot.com/2011/06/special-bash-parameters-in-script-linux.html]https://javarevisited.blogspot.com/2011/06/special-bash-parameters-in-script-linux.html <br>
-[https://linuxize.com/post/bash-functions/]https://linuxize.com/post/bash-functions/ <br>
-[https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php]https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php <br>
-[https://bash.cyberciti.biz/guide/Pass_arguments_into_a_function]https://bash.cyberciti.biz/guide/Pass_arguments_into_a_function <br>
-[https://stackoverflow.com/questions/42757236/what-does-mean-in-bash]https://stackoverflow.com/questions/42757236/what-does-mean-in-bash <br>
-[https://www.modzero.com/modlog/archives/2019/10/04/exploit_wars_ii_-_the_server_strikes_back/index.html]https://www.modzero.com/modlog/archives/2019/10/04/exploit_wars_ii_-_the_server_strikes_back/index.html <br>
+[https://javarevisited.blogspot.com/2011/06/special-bash-parameters-in-script-linux.html](https://javarevisited.blogspot.com/2011/06/special-bash-parameters-in-script-linux.html) <br>
+[https://linuxize.com/post/bash-functions/](https://linuxize.com/post/bash-functions/) <br>
+[https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php](https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php) <br>
+[https://bash.cyberciti.biz/guide/Pass_arguments_into_a_function](https://bash.cyberciti.biz/guide/Pass_arguments_into_a_function) <br>
+[https://stackoverflow.com/questions/42757236/what-does-mean-in-bash](https://stackoverflow.com/questions/42757236/what-does-mean-in-bash) <br>
+[https://www.modzero.com/modlog/archives/2019/10/04/exploit_wars_ii_-_the_server_strikes_back/index.html](https://www.modzero.com/modlog/archives/2019/10/04/exploit_wars_ii_-_the_server_strikes_back/index.html) <br>
 
 
