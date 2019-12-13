@@ -2,7 +2,7 @@
 title: Journey to become offensive Security Expert 2
 layout: post
 author: mucomplex
-description: None
+description: Personal
 ---
 
 Hi guys, after a few weeks it is now the time to write Journey to become offensive security expert part two. I assume you have reached your limit about basic stuff either beginner level or intermediate level.<br>

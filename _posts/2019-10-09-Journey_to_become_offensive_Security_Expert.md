@@ -2,7 +2,7 @@
 title: Journey to become offensive Security Expert
 layout: post
 author: mucomplex
-description: None
+description: Personal
 ---
 
 Hi guys, today I want to share with you my way on how to become an offensive security expert.<br>
